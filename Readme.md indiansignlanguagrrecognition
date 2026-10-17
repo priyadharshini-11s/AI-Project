@@ -1,0 +1,78 @@
+# Indian Sign Language Recognition Using Deep Learning
+
+## Project Overview
+This project uses Deep Learning and Machine Learning techniques to recognize Indian Sign Language (ISL) hand signs from images. The project compares different models and identifies the best-performing model for sign classification.
+
+## Project Objective
+- Recognize Indian Sign Language hand signs from images.
+- Explore and preprocess the image dataset.
+- Build and compare Deep Learning models.
+- Compare traditional Machine Learning algorithms.
+- Evaluate model performance using classification metrics.
+
+## Dataset
+- **Total Images:** 4,972
+- **Number of Classes:** 24
+- **Validation Images:** 985
+
+The dataset is organized into folders representing different sign classes.
+
+## Models Used
+
+### Deep Learning
+- Custom Convolutional Neural Network (CNN)
+- MobileNetV2
+- EfficientNetB0
+
+### Machine Learning
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors (KNN)
+- Random Forest
+- Logistic Regression
+
+## Best Model Results
+
+The final verified model is Fine-Tuned MobileNetV2.
+
+| Metric | Score |
+|---|---:|
+| Accuracy | 97.56% |
+| Precision | 97.72% |
+| Recall | 97.56% |
+| F1-Score | 97.53% |
+
+## Technologies Used
+- Python
+- Google Colab
+- TensorFlow / Keras
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- OpenCV
+- Scikit-learn
+
+## Project Workflow
+1. Dataset exploration and analysis
+2. Image preprocessing and data augmentation
+3. Deep Learning model training
+4. Feature extraction
+5. Traditional Machine Learning model comparison
+6. Final model evaluation
+7. Confusion matrix and classification report
+8. Grad-CAM visualization
+9. ROC-AUC analysis
+
+## Project File
+`indiansignlanguagerecognition.ipynb`
+
+## Future Scope
+- Real-time sign recognition using a webcam
+- Recognition of sign sequences and sentences
+- Text-to-Speech output
+- Mobile application deployment
+- Support for additional sign classes
+
+## Conclusion
+The project demonstrates how Deep Learning can be used to recognize Indian Sign Language hand signs from images. The final Fine-Tuned MobileNetV2 model achieved 97.56% accuracy on the validation set.
+
