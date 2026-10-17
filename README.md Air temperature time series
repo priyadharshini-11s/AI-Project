@@ -1,0 +1,31 @@
+# Air Temperature Time Series Forecasting
+
+## Project Overview
+This project focuses on analysing air temperature data and forecasting future temperatures using time series analysis.
+
+## Objective
+To study historical air temperature patterns and predict future temperatures.
+
+## Dataset
+The dataset contains air temperature observations used for time series forecasting.
+
+## Project File
+- `AirTemperatureTime_series_forecasting.ipynb` — Jupyter Notebook containing the project code and analysis.
+
+## Tools and Technologies
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+
+## Project Workflow
+1. Load the dataset.
+2. Explore and analyse the temperature data.
+3. Preprocess the data.
+4. Apply time series forecasting techniques.
+5. Evaluate the forecasting results.
+
+## Conclusion
+This project explores time series forecasting techniques to understand temperature patterns and predict future air temperatures.
