@@ -1,0 +1,86 @@
+# Pneumonia Chest X-Ray Classification
+
+## Project Description
+This project develops an image classification pipeline to classify chest X-ray images into two categories: NORMAL and PNEUMONIA.
+
+The notebook explores image preprocessing, deep learning, transfer learning, classical machine learning, model evaluation, and explainability techniques.
+
+## Project Objectives
+- Load and validate chest X-ray images.
+- Analyse the distribution and quality of the dataset.
+- Preprocess and augment images.
+- Train and fine-tune deep learning models.
+- Extract CNN features and apply Principal Component Analysis (PCA).
+- Compare classical machine learning classifiers.
+- Evaluate models using classification metrics.
+- Interpret model predictions using SHAP explainability.
+
+## Dataset
+The dataset contains chest X-ray images in two classes:
+- `NORMAL`
+- `PNEUMONIA`
+
+The notebook expects training, validation, and testing data to be organized in separate directories.
+
+## Models and Techniques
+- Convolutional Neural Networks (CNN)
+- Transfer learning and fine-tuning
+- CNN feature extraction
+- Principal Component Analysis (PCA)
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors (KNN)
+- Gradient Boosting
+- XGBoost
+- LightGBM
+- SHAP model explainability
+
+## Evaluation Metrics
+- Accuracy
+- Precision
+- Recall / Sensitivity
+- Specificity
+- F1-Score
+- ROC-AUC
+- Matthews Correlation Coefficient (MCC)
+
+## Technologies Used
+- Python
+- Google Colab
+- TensorFlow / Keras
+- OpenCV
+- Pillow
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- SHAP
+
+## Project Workflow
+1. Dataset loading and validation
+2. Exploratory data analysis
+3. Image preprocessing and augmentation
+4. Deep learning model training
+5. Transfer learning and fine-tuning
+6. CNN feature extraction and PCA
+7. Classical machine learning model comparison
+8. Performance evaluation and visualization
+9. SHAP-based model explainability
+
+## Project Notebook
+`Pneumonia_XRay_Classification.ipynb`
+
+## Limitations
+Model performance depends on the dataset and evaluation split. Predictions may not generalize to other hospitals, populations, or imaging equipment.
+
+## Important Medical Disclaimer
+This project is intended for educational and research purposes only. Its predictions are not a medical diagnosis and must not replace evaluation by qualified healthcare professionals.
+
+## Future Scope
+- Evaluate on independent external datasets
+- Explore additional deep learning architectures
+- Improve generalization and robustness
+- Develop a clinician-supervised decision-support prototype
