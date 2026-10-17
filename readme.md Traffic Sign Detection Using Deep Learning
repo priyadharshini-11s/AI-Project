@@ -1,0 +1,58 @@
+# Traffic Sign Detection Using Deep Learning
+
+## Project Description
+This project develops a traffic sign image classification system using a Convolutional Neural Network (CNN). It processes traffic sign images and classifies them into different traffic sign categories.
+
+## Project Objectives
+- Load and explore the traffic sign dataset.
+- Preprocess and resize images.
+- Visualize traffic sign classes and dataset characteristics.
+- Build and train a CNN model.
+- Evaluate the model using classification metrics and a confusion matrix.
+- Save the trained model for future use.
+
+## Dataset
+The project uses traffic sign image data organized into training, testing, and metadata files.
+
+Dataset files used in the notebook:
+- `Train.csv`
+- `Test.csv`
+- `Meta.csv`
+- `Train/`
+- `Test/`
+- `Meta/`
+
+The metadata describes 43 traffic sign classes.
+
+## Technologies Used
+- Python
+- Google Colab
+- TensorFlow / Keras
+- OpenCV
+- Pillow (PIL)
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+## Project Workflow
+1. Dataset loading and inspection
+2. Image preprocessing
+3. Exploratory data analysis
+4. Training and validation split
+5. CNN model development
+6. Model training and evaluation
+7. Prediction and confusion matrix analysis
+8. Saving the trained model
+
+## Project Notebook
+`trafficsignal.ipynb`
+
+## Expected Outcome
+A trained CNN model that classifies traffic sign images into the dataset's traffic sign categories.
+
+## Future Scope
+- Real-time traffic sign recognition using a camera
+- Integration with driver-assistance systems
+- Testing with traffic signs captured in different lighting and weather conditions
